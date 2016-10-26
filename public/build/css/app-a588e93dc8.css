@@ -2092,25 +2092,36 @@ ol.dropdown-content {
   font-size: 3em;
   line-height: 1em; }
 
+[container] {
+  background: #e9f3f6;
+  padding: 0; }
+
 header {
   width: 100%;
-  background-color: #536066;
+  height: 11em;
+  background: url("/images/quick-elec_logo.png") no-repeat left 2em top 1em #316c7c;
+  background-size: 18em;
   padding-top: 1em; }
   header h1 {
-    color: #FFF;
-    margin: 1em; }
+    display: none; }
 
 #nav {
-  height: 2em; }
+  height: 2em;
+  margin-top: 8em; }
   #nav li {
-    background: #5a8aba;
+    background: #2a5c6a;
     margin: 0;
-    padding: .5em 2em; }
+    padding: .5em 2em;
+    color: #FFF; }
     #nav li:hover {
-      opacity: .7; }
+      background: #387c8e; }
+
+.page-content {
+  padding: 40px; }
 
 footer {
   width: 100%;
-  background-color: #536066; }
+  height: 10em;
+  background-color: #316c7c; }
 
 /*# sourceMappingURL=app.css.map */
