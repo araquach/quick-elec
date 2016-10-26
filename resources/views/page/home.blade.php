@@ -8,6 +8,15 @@
 
 @section('content')
 
+<div class="banner">
+    <ul>
+        <li class="banner-image banner-image-1"></li>
+        <li class="banner-image banner-image-2"></li>
+        <li class="banner-image banner-image-3"></li>
+        <li class="banner-image banner-image-4"></li>
+    </ul>
+</div>
+
 <div class="page-content">
     
     <h2>Home</h2>
@@ -15,5 +24,8 @@
     <p>We specialise in domestic rewires as we have fully qualified rewire teams who complete work only to the highest standard.</p>
     <p>We understand what individuals and modern businesses look for when selecting an electrical contractor and we make extra efforts to exceed our customers' expectations.</p>
 </div>
+
+<script type="text/javascript" src="{{ URL::asset('js/unslider.js') }}"></script>
+<script>$(function() { $('.banner').unslider() })</script>
 
 @stop

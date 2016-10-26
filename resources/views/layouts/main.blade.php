@@ -13,20 +13,15 @@
                     <h1>Quick Elec</h1>
                 </div>
             
-            
-            <div id="nav">
-            <ul class="list--inline">
-            	<li><a href="#"></a>Link 1</li>
-            	<li><a href="#"></a>Link 2</li>
-            	<li><a href="#"></a>Link 3</li>
-            	<li><a href="#"></a>Link 4</li>
-            	<li><a href="#"></a>Link 5</li>
-            	<li><a href="#"></a>Link 6</li>
-            </ul>
-            </div>
-            
+                <div id="nav">
+                    <ul class="list--inline">
+                        <li>{!! link_to('/', 'Home') !!}</li>
+                        <li>{!! link_to('contact', 'About Us') !!}</li>
+                    	<li>{!! link_to('contact', 'Contact Us') !!}</li>
+                    	<li>{!! link_to('contact', 'Testimonials') !!}</li>
+                    </ul>
+                </div>
             </header>
-            
             
                 @yield('content')
         

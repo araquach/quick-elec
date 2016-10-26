@@ -12,7 +12,38 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.copy(
+        'node_modules/jquery/dist/jquery.min.js',
+        'resources/assets/js'
+    );
+    
+    mix.copy(
+        'node_modules/jquery-unslider/dist/js/unslider-min.js',
+        'resources/assets/js'
+    );
+    
+    mix.copy(
+        'node_modules/jquery-unslider/dist/sass/unslider.scss',
+        'resources/assets/sass'
+    );
+    
+    mix.copy(
+        'node_modules/jquery-unslider/dist/sass/unslider-dots.scss',
+        'resources/assets/sass'
+    );
+    
+    mix.scripts([
+        'jquery.min.js'
+     ], 'public/js/jquery.js');
+     
+    mix.scripts([
+        'unslider-min.js'
+     ], 'public/js/unslider.js') 
+
+    mix.sass(['app.scss',
+              'unslider.scss',
+              'unslider-dots.scss'
+    ]);
     
     mix.version('public/css/app.css');
 });

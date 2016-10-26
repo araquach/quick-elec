@@ -26,4 +26,7 @@
 	<title>{{ $title or 'Quick-Elec' }}</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ elixir('css/app.css') }}" />
+	
+	<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+	
 </head>
