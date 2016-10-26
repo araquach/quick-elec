@@ -1,2 +1,33 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/concise.css/src/concise.scss";
+
+header {
+    width: 100%;
+    background-color: $grey;
+    padding-top: 1em;
+    
+    h1 {
+        color: $white;
+        margin: 1em;
+    }
+}
+
+#nav {
+    
+    height: 2em;
+    
+    li {
+        background: $sky;
+        margin: 0;
+        padding: .5em 2em;
+        
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: $grey;
+}
 
