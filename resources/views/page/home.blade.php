@@ -14,15 +14,12 @@
         <li class="banner-image banner-image-2"></li>
         <li class="banner-image banner-image-3"></li>
         <li class="banner-image banner-image-4"></li>
+        <li class="banner-image banner-image-5"></li>
     </ul>
 </div>
 
 <div class="page-content">
     
-    <h2>Home</h2>
-    <p>With years of experience in revamping residential and commercial properties, QUICK-ELEC are electrical contractors covering a range of domestic and commercial electrical  services all at very competitive prices.</p>
-    <p>We specialise in domestic rewires as we have fully qualified rewire teams who complete work only to the highest standard.</p>
-    <p>We understand what individuals and modern businesses look for when selecting an electrical contractor and we make extra efforts to exceed our customers' expectations.</p>
 </div>
 
 <script type="text/javascript" src="{{ URL::asset('js/unslider.js') }}"></script>

@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('page.home');
-});
+Route::get('/', 'PagesController@index');
+Route::get('/about', 'PagesController@about');
 
-Route::get('/contact', function () {
-    return view('page.contact');
-});
+Route::get('contact', 
+  ['as' => 'contact', 'uses' => 'ContactController@create']);
+Route::post('sendEmail', 
+  ['as' => 'sendEmail', 'uses' => 'ContactController@sendEmail']);

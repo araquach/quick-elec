@@ -2093,14 +2093,14 @@ ol.dropdown-content {
   line-height: 1em; }
 
 [container] {
-  background: #e9f3f6;
+  background: white;
   padding: 0; }
 
 header {
   width: 100%;
   height: 11em;
-  background: url("/images/quick-elec_logo.png") no-repeat left 2em top 1em #316c7c;
-  background-size: 18em;
+  background: url("/images/quick-elec_logo3.png") no-repeat left 2em top 1em #5a8aba;
+  background-size: 20em;
   padding-top: 1em; }
   header h1 {
     display: none; }
@@ -2114,37 +2114,60 @@ header {
     margin: 0;
     padding: 0; }
     #nav li a {
-      background: #2a5c6a;
+      background: #4a7db1;
       color: #FFF;
       margin: 0;
       padding: .7em 2em; }
       #nav li a:hover {
-        background: #387c8e; }
+        background: #6c97c2; }
 
 .page-content {
   padding: 40px; }
 
+.unslider-nav ol {
+  position: absolute;
+  top: 42em;
+  left: 45%; }
+
+.unslider-arrow.prev {
+  position: absolute;
+  top: 42em;
+  left: 10% !important; }
+
+.unslider-arrow.next {
+  position: absolute;
+  top: 42em;
+  right: 10% !important; }
+
 .banner-image {
-  height: 30em; }
+  height: 35em; }
 
 .banner-image-1 {
-  background: red; }
+  background: url("/images/stock/image1.jpeg") no-repeat center center;
+  background-size: cover; }
 
 .banner-image-2 {
-  background: blue; }
+  background: url("/images/stock/image2.jpeg") no-repeat center center;
+  background-size: cover; }
 
 .banner-image-3 {
-  background: green; }
+  background: url("/images/stock/image3.jpeg") no-repeat center center;
+  background-size: cover; }
 
 .banner-image-4 {
-  background: pink; }
+  background: url("/images/stock/image4.jpeg") no-repeat center center;
+  background-size: cover; }
+
+.banner-image-5 {
+  background: url("/images/stock/image5.jpeg") no-repeat center center;
+  background-size: cover; }
 
 footer {
   height: 10em;
-  background-color: #316c7c;
+  background-color: #5a8aba;
   padding: 3em; }
   footer p {
-    color: #a0cdd9; }
+    color: #eaf0f6; }
 
 .unslider {
   overflow: auto;

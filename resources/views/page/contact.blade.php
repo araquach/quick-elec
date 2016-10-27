@@ -31,7 +31,7 @@
         </div>
         @endif
         
-        {!! Form::open(array('', 'class' => 'form')) !!}
+        {!! Form::open(array('action' => 'PagesController@sendEmail', 'class' => 'form')) !!}
         
         	<p>
         	{!! Form::label('first_name', 'First Name') !!}
@@ -74,6 +74,8 @@
         	
         {!! Form::close() !!}
         
+        
+        </div>
     </div><!-- form -->
             
 </div>
