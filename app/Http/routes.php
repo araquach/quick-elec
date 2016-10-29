@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
+Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
+Route::get('/testimonials', 'PagesController@testimonials');
+
 
 Route::get('contact', 
-  ['as' => 'contact', 'uses' => 'ContactController@create']);
+  ['as' => 'contact', 'uses' => 'PagesController@create']);
 Route::post('sendEmail', 
-  ['as' => 'sendEmail', 'uses' => 'ContactController@sendEmail']);
+  ['as' => 'sendEmail', 'uses' => 'PagesController@sendEmail']);

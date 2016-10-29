@@ -9,7 +9,6 @@
 	'ogdescription' => '',
 	'title' => ''
 	])
-	
 @stop
 
 @section('content')

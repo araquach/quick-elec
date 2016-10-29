@@ -2093,81 +2093,89 @@ ol.dropdown-content {
   line-height: 1em; }
 
 [container] {
-  background: white;
-  padding: 0; }
+  padding: 0;
+  max-width: 1150px; }
 
 header {
+  position: absolute;
+  top: 0;
+  z-index: 2;
   width: 100%;
+  max-width: 1150px;
   height: 11em;
-  background: url("/images/quick-elec_logo3.png") no-repeat left 2em top 1em #5a8aba;
-  background-size: 20em;
+  background: #373eb3;
+  background: rgba(55, 62, 179, 0.85);
   padding-top: 1em; }
-  header h1 {
+
+#header-content {
+  position: absolute;
+  background: url("/images/quick-elec_logo3.png") no-repeat left 2em top 0.3em;
+  background-size: 18em;
+  width: 30em;
+  height: 7em; }
+  #header-content h1 {
     display: none; }
 
 #nav {
-  height: 2em;
-  margin-top: 8em; }
+  position: absolute;
+  bottom: 0; }
   #nav ul {
     height: auto; }
   #nav li {
     margin: 0;
     padding: 0; }
     #nav li a {
-      background: #4a7db1;
+      background: #31379f;
+      background: rgba(55, 62, 179, 0.7);
       color: #FFF;
       margin: 0;
       padding: .7em 2em; }
       #nav li a:hover {
-        background: #6c97c2; }
+        background: #3f47c4;
+        background: #373eb3; }
 
 .page-content {
+  margin-top: 200px;
   padding: 40px; }
 
-.unslider-nav ol {
-  position: absolute;
-  top: 42em;
-  left: 45%; }
+.unslider-arrow {
+  top: 50em; }
 
 .unslider-arrow.prev {
-  position: absolute;
-  top: 42em;
-  left: 10% !important; }
+  left: 20% !important; }
 
 .unslider-arrow.next {
-  position: absolute;
-  top: 42em;
-  right: 10% !important; }
+  right: 20% !important; }
 
 .banner-image {
-  height: 35em; }
+  height: 55em; }
 
 .banner-image-1 {
-  background: url("/images/stock/image1.jpeg") no-repeat center center;
+  background: url("/images/stock/image1.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-2 {
-  background: url("/images/stock/image2.jpeg") no-repeat center center;
+  background: url("/images/stock/image2.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-3 {
-  background: url("/images/stock/image3.jpeg") no-repeat center center;
+  background: url("/images/stock/image3.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-4 {
-  background: url("/images/stock/image4.jpeg") no-repeat center center;
+  background: url("/images/stock/image4.jpg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-5 {
-  background: url("/images/stock/image5.jpeg") no-repeat center center;
+  background: url("/images/stock/image5.jpeg") no-repeat top center;
   background-size: cover; }
 
 footer {
   height: 10em;
-  background-color: #5a8aba;
+  background: rgba(55, 62, 179, 0.85);
   padding: 3em; }
   footer p {
-    color: #eaf0f6; }
+    color: #c8caee; }
 
 .unslider {
   overflow: auto;

@@ -8,7 +8,7 @@ use App\Http\Requests;
 
 class PagesController extends Controller
 {
-    public function index()
+    public function home()
 	{
 		return view('page.home');
 	}
@@ -21,6 +21,11 @@ class PagesController extends Controller
 	public function details()
 	{
 		return view('page.details');
+	}
+	
+	public function testimonials()
+	{
+		return view('page.testimonials');
 	}
 	
 	public function create()

@@ -2,8 +2,13 @@
 
 @section('head')
 
-@include('layouts.partials.head')
-
+@include('layouts.partials.head', [
+	'description' => '',
+	'keywords' => '',
+	'ogtitle' => '',
+	'ogdescription' => '',
+	'title' => ''
+	])
 @stop
 
 @section('content')
