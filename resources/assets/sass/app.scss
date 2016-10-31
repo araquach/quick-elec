@@ -35,6 +35,27 @@ header {
     }
 }
 
+.social {
+    width: 3em;
+    height: 2.5em;
+}
+
+.social.facebook {
+    background: url('/images/icons/facebook_logo.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 3em;
+    bottom: 6em;
+}
+
+.social.twitter {
+    background: url('/images/icons/twitter_logo.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 8em;
+    bottom: 6em;
+}
+
 //
 // Contact us button
 // --------------------
@@ -181,7 +202,7 @@ header {
 .contact-form {
     width: 40em;
     margin-top: 10em;
-    background: rgba($white, 0.7);
+    background: rgba($white, 0.8);
     padding: 4em;
     border-radius: 10px;
     

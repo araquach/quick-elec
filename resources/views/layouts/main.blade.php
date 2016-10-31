@@ -12,6 +12,11 @@
                 <div id="header-content">
                     <h1>Quick Elec</h1>
                 </div>
+                
+                
+                <a href="#"><div class="social facebook"></div></a>
+                <a href="#"><div class="social twitter"></div></a>
+                
                 <a href="{{ URL::to('contact') }}">
                     <button id="contact-us" class="button--pill">Contact Us</button>
                 </a>
