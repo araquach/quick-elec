@@ -2106,13 +2106,13 @@ header {
   min-width: 630px;
   height: 11em;
   background: #003366;
-  background: rgba(0, 51, 102, 0.85);
+  background: rgba(0, 51, 102, 0.75);
   padding-top: 1em; }
 
 #header-content {
   position: absolute;
   background: url("/images/quick-elec_logo3.png") no-repeat left 2em top 0.3em;
-  background-size: 18em;
+  background-size: 20em;
   width: 30em;
   height: 7em; }
   #header-content h1 {
@@ -2165,7 +2165,7 @@ header {
   padding-top: 9.5em; }
 
 .unslider-arrow {
-  top: 49em;
+  top: 42em;
   overflow: hidden;
   text-indent: -999em; }
 
@@ -2183,7 +2183,7 @@ header {
 
 .unslider-nav {
   position: absolute;
-  top: 50em;
+  top: 43em;
   left: 44%; }
 
 .unslider-nav ol li {
@@ -2194,7 +2194,7 @@ header {
   border: 2px solid #999; }
 
 .banner-image {
-  height: 55em; }
+  height: 47em; }
 
 .banner-image-1 {
   background: url("/images/stock/image1.jpeg") no-repeat top center;
@@ -2216,6 +2216,36 @@ header {
   background: url("/images/stock/image5.jpeg") no-repeat top center;
   background-size: cover; }
 
+.banner-copy.left, .banner-copy.right {
+  width: 23em;
+  color: white;
+  font-size: 1em;
+  position: relative;
+  padding: 1.5em;
+  border-radius: 10px;
+  margin-top: 16em;
+  text-align: center; }
+  .banner-copy.left strong, .banner-copy.right strong {
+    font-weight: bolder;
+    font-size: 1.3em; }
+
+.banner-copy.left {
+  background: rgba(90, 138, 186, 0.8);
+  border: 0.1em solid #5a8aba;
+  float: left;
+  margin-left: 3em; }
+
+.banner-copy.right {
+  background: rgba(0, 51, 102, 0.8);
+  border: 0.1em solid #003366;
+  float: right;
+  margin-right: 3em; }
+
+.header {
+  font-size: 2.3em;
+  font-weight: bold;
+  line-height: 1.4em; }
+
 .full-page {
   background: rgba(255, 255, 255, 0.8);
   padding: 5em; }
@@ -2236,7 +2266,12 @@ header {
   padding: 4em;
   border-radius: 10px; }
   .contact-form h2 {
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    color: #004d99; }
+  .contact-form label {
+    color: #004d99;
+    margin-bottom: 1.1em;
+    font-size: 1em; }
 
 footer {
   height: 10em;

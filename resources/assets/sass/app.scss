@@ -19,14 +19,14 @@ header {
     min-width: 630px;
     height: 11em;
     background: $blue;
-    background: rgba($blue, 0.85);
+    background: rgba($blue, 0.75);
     padding-top: 1em;
 }
 
 #header-content {
     position: absolute;
     background: url('/images/quick-elec_logo3.png') no-repeat left 2em top .3em;
-    background-size: 18em;
+    background-size: 20em;
     width: 30em;
     height: 7em;
     
@@ -107,7 +107,7 @@ header {
 // ------------------------
 
 .unslider-arrow {
-    top: 49em;
+    top: 42em;
     overflow: hidden;
     text-indent: -999em;
 }
@@ -128,7 +128,7 @@ header {
 
 .unslider-nav {
     position: absolute;
-    top: 50em;
+    top: 43em;
     left: 44%;
 }
 
@@ -141,7 +141,7 @@ header {
 }
 
 .banner-image {
-    height: 55em;
+    height: 47em;
 }
 
 .banner-image-1 {
@@ -167,6 +167,45 @@ header {
 .banner-image-5 {
     background: url('/images/stock/image5.jpeg') no-repeat top center;
     background-size: cover;
+}
+
+
+%banner-copy {
+	width: 23em;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-top: 16em;
+    text-align: center;
+    
+    strong {
+        font-weight: bolder;
+        font-size: 1.3em;
+    }
+}
+
+.banner-copy.left {
+	@extend %banner-copy;
+	background: rgba($sky, .8);
+	border: .1em solid $sky;
+	float: left;
+	margin-left: 3em;
+}
+
+.banner-copy.right {
+	@extend %banner-copy;
+	background: rgba($blue, .8);
+	border: .1em solid $blue;
+	float: right;
+	margin-right: 3em;
+}
+
+.header {
+    font-size: 2.3em;
+    font-weight: bold;
+    line-height: 1.4em;
 }
 
 //
@@ -208,6 +247,13 @@ header {
     
     h2 {
         margin-bottom: 1em;
+        color: lighten($blue, 10%);
+    }
+    
+    label {
+        color: lighten($blue, 10%);
+        margin-bottom: 1.1em;
+        font-size: 1em;
     }
 }
 
