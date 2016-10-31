@@ -11,6 +11,7 @@ header {
     z-index: 2;
     width: 100%;
     max-width: 1150px;
+    min-width: 630px;
     height: 11em;
     background: $blue;
     background: rgba($blue, 0.85);
@@ -27,6 +28,14 @@ header {
     h1 {
         display: none;
     }
+}
+
+#contact-us {
+        position: absolute;
+        right: 2em;
+        bottom: 1em;
+        border-radius: 15px;
+        border: 2px solid $white;
 }
 
 #nav {
@@ -71,6 +80,20 @@ header {
 
 .unslider-arrow.next {
 	right: 20% !important;
+}
+
+.unslider-nav {
+    position: absolute;
+    top: 50em;
+    left: 47%;
+}
+
+.unslider-nav ol li {
+    width: 10px !important;
+    height: 10px !important;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #999;
 }
 
 .banner-image {
