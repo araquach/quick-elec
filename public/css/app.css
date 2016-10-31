@@ -2094,7 +2094,8 @@ ol.dropdown-content {
 
 [container] {
   padding: 0;
-  max-width: 1150px; }
+  max-width: 1150px;
+  border: 1px solid #c8caee; }
 
 header {
   position: absolute;
@@ -2143,22 +2144,29 @@ header {
         background: #373eb3; }
 
 .page-content {
-  margin-top: 200px;
-  padding: 40px; }
+  padding-top: 9.5em; }
 
 .unslider-arrow {
-  top: 50em; }
+  top: 49em;
+  overflow: hidden;
+  text-indent: -999em; }
 
 .unslider-arrow.prev {
-  left: 20% !important; }
+  left: 20% !important;
+  width: 8em;
+  height: 8em;
+  background: url("/images/icons/arrow-left.png") no-repeat left 2em top; }
 
 .unslider-arrow.next {
-  right: 20% !important; }
+  right: 20% !important;
+  width: 8em;
+  height: 8em;
+  background: url("/images/icons/arrow-right.png") no-repeat left 2em top; }
 
 .unslider-nav {
   position: absolute;
   top: 50em;
-  left: 47%; }
+  left: 44%; }
 
 .unslider-nav ol li {
   width: 10px !important;
@@ -2189,6 +2197,28 @@ header {
 .banner-image-5 {
   background: url("/images/stock/image5.jpeg") no-repeat top center;
   background-size: cover; }
+
+.full-page {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5em; }
+
+.page-content.about {
+  background: url("/images/stock/image5.jpeg") no-repeat top center;
+  background-size: cover; }
+
+.page-content.contact {
+  background: url("/images/stock/image2.jpeg") no-repeat top center;
+  background-size: cover;
+  padding: 3em; }
+
+.contact-form {
+  width: 40em;
+  margin-top: 10em;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 4em;
+  border-radius: 10px; }
+  .contact-form h2 {
+    margin-bottom: 1em; }
 
 footer {
   height: 10em;

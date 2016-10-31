@@ -13,11 +13,10 @@
 
 @section('content')
 
-<div class="page-content">
+<div class="page-content contact">
     
-    <h2>Contact Us</h2>
-    
-    <div class="form">
+    <div class="contact-form">
+        <h2>Contact Us</h2>
 
         @if (count($errors) > 0)
         <div>
@@ -73,8 +72,6 @@
         	
         {!! Form::close() !!}
         
-        
-        </div>
     </div><!-- form -->
             
 </div>
