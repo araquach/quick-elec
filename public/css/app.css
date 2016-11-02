@@ -2095,14 +2095,14 @@ ol.dropdown-content {
 [container] {
   padding: 0;
   max-width: 1150px;
-  border: 1px solid #3399ff; }
+  border: 1px solid rgba(83, 96, 102, 0.5); }
 
 header {
   position: absolute;
   top: 0;
   z-index: 2;
   width: 100%;
-  max-width: 1150px;
+  max-width: 1148px;
   min-width: 630px;
   height: 11em;
   background: #003366;
@@ -2111,7 +2111,7 @@ header {
 
 #header-content {
   position: absolute;
-  background: url("/images/quick-elec_logo3.png") no-repeat left 2em top 0.3em;
+  background: url("/images/quick-elec_logo.png") no-repeat left 2em top 0.1em;
   background-size: 20em;
   width: 30em;
   height: 7em; }
@@ -2127,19 +2127,19 @@ header {
   background-size: cover;
   position: absolute;
   right: 3em;
-  bottom: 6em; }
+  bottom: 6.3em; }
 
 .social.twitter {
   background: url("/images/icons/twitter_logo.png") no-repeat center center;
   background-size: cover;
   position: absolute;
   right: 8em;
-  bottom: 6em; }
+  bottom: 6.3em; }
 
 #contact-us {
   position: absolute;
   right: 2em;
-  bottom: 1em;
+  bottom: 1.2em;
   border-radius: 15px;
   border: 2px solid #FFF; }
 
