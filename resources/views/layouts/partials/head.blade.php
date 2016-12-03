@@ -29,4 +29,7 @@
 	
 	<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
 	
+	<script src="https://use.typekit.net/rix1nhd.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
 </head>

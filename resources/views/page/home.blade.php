@@ -11,6 +11,9 @@
 
 <div class="banner">
     <ul>
+        <li class="banner-image banner-image-6"><a href="#"><div class="banner-copy right"><span class="header">Expert residential and commercial electricians<br></span>
+        <br>Years of experience, friendly &amp reliable service
+        <br><br><strong>Find out more ></strong></div></a></li>
         <li class="banner-image banner-image-4"><a href="#"><div class="banner-copy left"><span class="header">Full and partial rewires<br></span>
         <br>Lorem ipsum dolor sit amet, utamur detraxit an eam. Facer exerci similique an sit, erat aeque fastidii eam no, id duo ferri appellantur delicatissimi. Ius eros minimum an.
         <br><br><strong>Find out more ></strong></div></a></li>
@@ -29,10 +32,12 @@
     </ul>
 </div>
 
+<section grid>
+  <article column="6" class="link-box domestic"><a href="{{ url('/domestic') }}"><h3>Domestic Electricians</h3></a></article>
+  <article column="6" class="link-box commercial"><a href="{{ url('/commercial') }}"><h3>Commercial Projects</h3></a></article>
+</section>
 
-<div class="page-content">
-    
-</div>
+
 
 <script type="text/javascript" src="{{ URL::asset('js/unslider.js') }}"></script>
 <script>$(function() { $('.banner').unslider({ autoplay: true, delay: 7000 }) })</script>

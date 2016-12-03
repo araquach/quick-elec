@@ -16,7 +16,7 @@ header {
     z-index: 2;
     width: 100%;
     max-width: 1148px;
-    min-width: 630px;
+    min-width: 750px;
     height: 11em;
     background: $blue;
     background: rgba($blue, 0.75);
@@ -99,6 +99,21 @@ header {
 
 .page-content {
     padding-top: 9.5em;
+    float: left;
+}
+
+.page-content article {
+    margin-bottom: 2em;
+}
+
+.copy {
+    width: 45%;
+}
+
+.pics {
+    width: 45%;
+    background: red;
+    float: right;
 }
 
 
@@ -169,6 +184,11 @@ header {
     background-size: cover;
 }
 
+.banner-image-6 {
+    background: url('/images/stock/image6.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
 
 %banner-copy {
 	width: 23em;
@@ -196,8 +216,8 @@ header {
 
 .banner-copy.right {
 	@extend %banner-copy;
-	background: rgba($blue, .8);
-	border: .1em solid $blue;
+	background: rgba($sky, .8);
+	border: .1em solid $sky;
 	float: right;
 	margin-right: 3em;
 }
@@ -215,14 +235,71 @@ header {
 .full-page {
     background: rgba($white, 0.8);
     padding: 5em;
+    float: left;
+    
+    h2 {
+        margin-bottom: 1em;
+        line-height: 1.5em;
+    }
 }
 
+//
+// Home Page Styling
+// --------------------
+
+.link-box {
+    height: 20em;
+    text-align: center;
+    border: .7em solid white;
+    padding: 0;
+    
+    &:last-of-type {
+        border-left: none;
+    }
+    
+    h3 {
+        color: $white;
+        height: 2.5em;
+        background-color: $blue;
+        background-color: rgba($blue, 0.75);
+        margin: 0;
+        line-height: 2.5em;
+    }
+}
+
+.domestic {
+    background: url('/images/stock/image10.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+.commercial {
+    background: url('/images/stock/image11.jpeg') no-repeat top center;
+    background-size: cover;
+}
 
 //
 // About Page Styling
 // --------------------
 
 .page-content.about {
+    background: url('/images/stock/image5.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+//
+// Commercial Page Styling
+// --------------------
+
+.page-content.commercial {
+    background: url('/images/stock/image3.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+//
+// Domestic Page Styling
+// --------------------
+
+.page-content.domestic {
     background: url('/images/stock/image5.jpeg') no-repeat top center;
     background-size: cover;
 }
@@ -236,6 +313,7 @@ header {
     background: url('/images/stock/image2.jpeg') no-repeat top center;
     background-size: cover;
     padding: 3em;
+    float: none;
 }
 
 .contact-form {
@@ -266,6 +344,7 @@ footer {
     height: 10em;
     background: rgba($blue, 0.85);
     padding: 3em;
+    clear: both;
     
     p {
         color: lighten($blue, 40%);

@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .giga, .mega, .kilo {
   color: #222;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "jaf-facitweb", sans-serif;
   line-height: 1.25em; }
   h1 small,
   h1 .small, h2 small,
@@ -2103,7 +2103,7 @@ header {
   z-index: 2;
   width: 100%;
   max-width: 1148px;
-  min-width: 630px;
+  min-width: 750px;
   height: 11em;
   background: #003366;
   background: rgba(0, 51, 102, 0.75);
@@ -2162,7 +2162,19 @@ header {
         background: #003366; }
 
 .page-content {
-  padding-top: 9.5em; }
+  padding-top: 9.5em;
+  float: left; }
+
+.page-content article {
+  margin-bottom: 2em; }
+
+.copy {
+  width: 45%; }
+
+.pics {
+  width: 45%;
+  background: red;
+  float: right; }
 
 .unslider-arrow {
   top: 42em;
@@ -2216,6 +2228,10 @@ header {
   background: url("/images/stock/image5.jpeg") no-repeat top center;
   background-size: cover; }
 
+.banner-image-6 {
+  background: url("/images/stock/image6.jpeg") no-repeat top center;
+  background-size: cover; }
+
 .banner-copy.left, .banner-copy.right {
   width: 23em;
   color: white;
@@ -2236,8 +2252,8 @@ header {
   margin-left: 3em; }
 
 .banner-copy.right {
-  background: rgba(0, 51, 102, 0.8);
-  border: 0.1em solid #003366;
+  background: rgba(90, 138, 186, 0.8);
+  border: 0.1em solid #5a8aba;
   float: right;
   margin-right: 3em; }
 
@@ -2248,16 +2264,52 @@ header {
 
 .full-page {
   background: rgba(255, 255, 255, 0.8);
-  padding: 5em; }
+  padding: 5em;
+  float: left; }
+  .full-page h2 {
+    margin-bottom: 1em;
+    line-height: 1.5em; }
+
+.link-box {
+  height: 20em;
+  text-align: center;
+  border: .7em solid white;
+  padding: 0; }
+  .link-box:last-of-type {
+    border-left: none; }
+  .link-box h3 {
+    color: #FFF;
+    height: 2.5em;
+    background-color: #003366;
+    background-color: rgba(0, 51, 102, 0.75);
+    margin: 0;
+    line-height: 2.5em; }
+
+.domestic {
+  background: url("/images/stock/image10.jpeg") no-repeat top center;
+  background-size: cover; }
+
+.commercial {
+  background: url("/images/stock/image11.jpeg") no-repeat top center;
+  background-size: cover; }
 
 .page-content.about {
+  background: url("/images/stock/image5.jpeg") no-repeat top center;
+  background-size: cover; }
+
+.page-content.commercial {
+  background: url("/images/stock/image3.jpeg") no-repeat top center;
+  background-size: cover; }
+
+.page-content.domestic {
   background: url("/images/stock/image5.jpeg") no-repeat top center;
   background-size: cover; }
 
 .page-content.contact {
   background: url("/images/stock/image2.jpeg") no-repeat top center;
   background-size: cover;
-  padding: 3em; }
+  padding: 3em;
+  float: none; }
 
 .contact-form {
   width: 40em;
@@ -2276,7 +2328,8 @@ header {
 footer {
   height: 10em;
   background: rgba(0, 51, 102, 0.85);
-  padding: 3em; }
+  padding: 3em;
+  clear: both; }
   footer p {
     color: #3399ff; }
 

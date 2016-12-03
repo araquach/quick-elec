@@ -18,6 +18,16 @@ class PagesController extends Controller
 		return view('page.about');
 	}
 	
+	public function domestic()
+	{
+		return view('page.domestic');
+	}
+	
+	public function commercial()
+	{
+		return view('page.commercial');
+	}
+	
 	public function details()
 	{
 		return view('page.details');

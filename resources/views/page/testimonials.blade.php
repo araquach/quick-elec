@@ -13,10 +13,10 @@
 
 @section('content')
 
-<div class="page-content">
-    
-    <h2>Testimonials</h2>
-    
+<div class="page-content testimonials">
+    <div class="full-page">
+    	<h2>See what our customers think&hellip;</h2>
+    </div>
 </div>
 
 @stop

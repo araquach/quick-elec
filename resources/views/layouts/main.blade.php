@@ -24,7 +24,8 @@
                     <ul class="list--inline">
                         <li>{!! link_to('/', 'Home') !!}</li>
                         <li>{!! link_to('about', 'About Us') !!}</li>
-                    	<li>{!! link_to('contact', 'Contact') !!}</li>
+                    	<li>{!! link_to('domestic', 'Domestic') !!}</li>
+                    	<li>{!! link_to('commercial', 'Commercial') !!}</li>
                     	<li>{!! link_to('testimonials', 'Testimonials') !!}</li>
                     </ul>
                 </div>
