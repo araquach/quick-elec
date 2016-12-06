@@ -19,7 +19,7 @@ header {
     min-width: 750px;
     height: 11em;
     background: $blue;
-    background: rgba($blue, 0.75);
+    background: rgba($blue, 0.9);
     padding-top: 1em;
 }
 
@@ -36,21 +36,21 @@ header {
 }
 
 .social {
-    width: 3em;
+    width: 2.5em;
     height: 2.5em;
 }
 
 .social.facebook {
     background: url('/images/icons/facebook_logo.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
-    right: 3em;
+    right: 3.7em;
     bottom: 6.3em;
 }
 
 .social.twitter {
     background: url('/images/icons/twitter_logo.png') no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     right: 8em;
     bottom: 6.3em;
@@ -100,6 +100,10 @@ header {
 .page-content {
     padding-top: 9.5em;
     float: left;
+    
+    h2 {
+        color: $blue;
+    }
 }
 
 .page-content article {
@@ -129,15 +133,15 @@ header {
 
 .unslider-arrow.prev {
     left: 20% !important;
-    width: 8em;
-    height: 8em;
+    width: 6em;
+    height: 4em;
     background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
 }
 
 .unslider-arrow.next {
 	right: 20% !important;
-	width: 8em;
-    height: 8em;
+	width: 6em;
+    height: 4em;
     background: url('/images/icons/arrow-right.png') no-repeat left 2em top;
 }
 
@@ -223,7 +227,7 @@ header {
 }
 
 .header {
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: bold;
     line-height: 1.4em;
 }
@@ -246,6 +250,12 @@ header {
 //
 // Home Page Styling
 // --------------------
+
+.page-content img {
+    margin-bottom: 3em;
+    border: 2px solid $blue;
+    padding: .2em;
+}
 
 .link-box {
     height: 20em;
@@ -286,6 +296,13 @@ header {
     background-size: cover;
 }
 
+.sector-link {
+    font-size: 1.4em;
+    float: left;
+    clear: left;
+    margin-top: 1.8em;
+}
+
 //
 // Commercial Page Styling
 // --------------------
@@ -293,6 +310,14 @@ header {
 .page-content.commercial {
     background: url('/images/stock/image3.jpeg') no-repeat top center;
     background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
 }
 
 //
@@ -341,13 +366,14 @@ header {
 // --------------
 
 footer {
-    height: 10em;
-    background: rgba($blue, 0.85);
-    padding: 3em;
+    height: 7em;
+    background: rgba($blue, 0.9);
+    padding: 2em;
     clear: both;
     
     p {
         color: lighten($blue, 40%);
+        font-size: .8em;
     }
 }
 

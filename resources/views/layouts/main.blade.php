@@ -35,7 +35,6 @@
         
             <footer>
                 <p>© 2016 Copyright Quick-Elec. All rights reserved. Site by Contra Design</p>
-                <p>Facebook/Twitter</p>
             </footer>
         </div>
     </body>
