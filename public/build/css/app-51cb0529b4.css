@@ -2096,6 +2096,12 @@ ol.dropdown-content {
   padding: 0;
   max-width: 1150px;
   border: 1px solid rgba(83, 96, 102, 0.5); }
+  @media (--small) {
+    [container] {
+      width: auto;
+      margin: auto;
+      max-width: none;
+      border: none; } }
 
 header {
   position: absolute;
@@ -2108,6 +2114,12 @@ header {
   background: #003366;
   background: rgba(0, 51, 102, 0.9);
   padding-top: 1em; }
+  @media (--extra-small) {
+    header {
+      width: auto;
+      max-width: none;
+      min-width: none;
+      background: #FFF; } }
 
 #header-content {
   position: absolute;
@@ -2115,6 +2127,9 @@ header {
   background-size: 20em;
   width: 30em;
   height: 7em; }
+  @media (--small) {
+    #header-content {
+      width: auto; } }
   #header-content h1 {
     display: none; }
 
@@ -2211,27 +2226,27 @@ header {
   height: 47em; }
 
 .banner-image-1 {
-  background: url("/images/stock/image1.jpeg") no-repeat top center;
+  background: url("/images/stock/qe_plans.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-2 {
-  background: url("/images/stock/image2.jpeg") no-repeat top center;
+  background: url("/images/stock/qe_electrician.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-3 {
-  background: url("/images/stock/image3.jpeg") no-repeat top center;
+  background: url("/images/stock/qe_cctv.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-4 {
-  background: url("/images/stock/image4.jpg") no-repeat top center;
+  background: url("/images/stock/qe_board.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-5 {
-  background: url("/images/stock/image5.jpeg") no-repeat top center;
+  background: url("/images/stock/qe_ceiling_spots.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-image-6 {
-  background: url("/images/stock/image6.jpeg") no-repeat top center;
+  background: url("/images/stock/qe_living_room.jpeg") no-repeat top center;
   background-size: cover; }
 
 .banner-copy.left, .banner-copy.right {
