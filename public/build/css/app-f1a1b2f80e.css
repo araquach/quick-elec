@@ -2337,6 +2337,10 @@ header {
   background: url("/images/stock/qe_living_room.jpeg") no-repeat top center;
   background-size: cover; }
 
+.page-content.testimonials {
+  background: url("/images/stock/qe_kitchen.jpeg") no-repeat top center;
+  background-size: cover; }
+
 .page-content.contact {
   background: url("/images/stock/qe_reception_desk.jpeg") no-repeat top center;
   background-size: cover;
