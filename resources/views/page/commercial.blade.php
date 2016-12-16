@@ -44,7 +44,7 @@
 	  		{{ Html::image('images/commercial/commercial3.jpg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
 	  	</article>
 	  	<article column="7">
-	  		<p>Contact us for more information</p>
+			<a href="{{ URL::to('contact') }}" class="sector-link">Contact us for more information &gt;</a>
 		</article>
 	  	<article column="5">
 	  		{{ Html::image('images/commercial/commercial2.jpg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
