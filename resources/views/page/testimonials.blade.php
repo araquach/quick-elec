@@ -26,11 +26,6 @@
     		<p>Work done: Replacing of consumer unit</p>
     		<p>Sarah & David – Orford, Warrington</p>
     	</div>
-    	<div class="quote-right">
-    		<p>"I couldn't fault them and would recommend them"</p>
-    		<p>Work done: High level wall socket for TV, 2x new wall lights and clock for boiler</p>
-    		<p>Chris – Warrington</p>
-    	</div>
     	<div class="quote-left">
     		<p>"Great work will recommend to others"</p>
     		<p>Work done: Decommission alarm</p>
@@ -80,6 +75,11 @@
     		<p>"Did exactly what we wanted without any fuss"</p>
     		<p>Work done: Changed mains board</p>
     		<p>Lyndsey Smith – Warrington</p>
+    	</div>
+    		<div class="quote-left">
+    		<p>"I couldn't fault them and would recommend them"</p>
+    		<p>Work done: High level wall socket for TV, 2x new wall lights and clock for boiler</p>
+    		<p>Chris – Warrington</p>
     	</div>
     </div>
 </div>

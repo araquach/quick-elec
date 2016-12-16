@@ -2290,6 +2290,32 @@ header {
   background: url("/images/stock/qe_living_room.jpeg") no-repeat top center;
   background-size: cover; }
 
+.page-content.testimonials {
+  background: url("/images/stock/qe_kitchen.jpeg") no-repeat top center;
+  background-size: cover; }
+
+.quote-left, .quote-right {
+  width: 30em;
+  height: auto;
+  background-color: #FFF;
+  padding: 2em;
+  margin-bottom: 2em;
+  border-radius: 2em; }
+  .quote-left p, .quote-right p {
+    margin-bottom: .6em; }
+  .quote-left p:nth-of-type(1), .quote-right p:nth-of-type(1) {
+    font-size: 1.2em;
+    font-style: italic; }
+  .quote-left p:nth-of-type(3), .quote-right p:nth-of-type(3) {
+    font-size: .9em;
+    font-weight: bold; }
+
+.quote-left {
+  float: left; }
+
+.quote-right {
+  float: right; }
+
 .page-content.contact {
   background: url("/images/stock/qe_reception_desk.jpeg") no-repeat top center;
   background-size: cover;
