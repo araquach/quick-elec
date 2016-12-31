@@ -2,8 +2,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
+	
+
 	<meta name="description" content="With years of experience in revamping residential and commercial properties, 
 										QUICK-ELEC are electrical contractors covering a wide range of domestic and commercial electrical services in the North West, all at very competitive prices.
 										We specialise in domestic rewires as we have fully qualified rewire teams who complete work only to the highest standard.
@@ -26,6 +26,7 @@
 	<title>{{ $title or 'Quick-Elec' }}</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ elixir('css/app.css') }}" />
+	
 	
 	<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
 	

@@ -5,6 +5,8 @@ $grey: rgb(83, 96, 102);
 $white: #FFF;
 $sky: rgb(90, 138, 186);
 
+$mobile-device: "only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)";
+
 
 //
 // Main Styling
@@ -15,10 +17,8 @@ $sky: rgb(90, 138, 186);
     max-width: 1150px;
     border: 1px solid rgba($grey, .5);
     
-    @media (--small) {
+    @media #{$mobile-device} {
         width: auto;
-        margin: auto;
-        max-width: none;
         border: none;
     }
 }
@@ -35,11 +35,9 @@ header {
     background: rgba($blue, 0.9);
     padding-top: 1em;
     
-    @media (--extra-small) {
+    @media #{$mobile-device} {
         width: auto;
-        max-width: none;
-        min-width: none;
-        background: $white;
+        background: red;
     }
 }
 
@@ -50,11 +48,11 @@ header {
     width: 30em;
     height: 7em;
     
-    @media (--small) {
-        width: auto;
+    h1 {
+        display: none;
     }
     
-    h1 {
+    @media #{$mobile-device} {
         display: none;
     }
 }
@@ -449,6 +447,9 @@ footer {
         color: lighten($blue, 40%);
         font-size: .8em;
     }
+    
 }
+
+
 
 
