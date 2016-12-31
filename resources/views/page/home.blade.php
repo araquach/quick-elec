@@ -15,19 +15,19 @@
         <br>Years of experience, friendly &amp reliable service
         <br><br><strong>Find out more ></strong></div></a></li>
         <li class="banner-image banner-image-2"><a href="{{ URL::to('about') }}"><div class="banner-copy left"><span class="header">Full and partial rewires<br></span>
-        <br>Lorem ipsum dolor sit amet, utamur detraxit an eam. Facer exerci similique an sit, erat aeque fastidii eam no, id duo ferri appellantur delicatissimi. Ius eros minimum an.
+        <br>We offer a full range of services to the homeowner from a complete rewire to a couple of sockets or light fittings
         <br><br><strong>Find out more ></strong></div></a></li>
         <li class="banner-image banner-image-3"><a href="{{ URL::to('about') }}"><div class="banner-copy right"><span class="header">Burglar Alarm & CCTV installation<br></span>
-        <br>Lorem ipsum dolor sit amet, utamur detraxit an eam. Facer exerci similique an sit, erat aeque fastidii eam no, id duo ferri appellantur delicatissimi. Ius eros minimum an.
+        <br>Ensure your home or business are fully secured. Quick-Elec will install burglar alarms and CCTV systems to suit your budget and your needs
         <br><br><strong>More info here ></strong></div></a></li>
         <li class="banner-image banner-image-4"><a href="{{ URL::to('about') }}"><div class="banner-copy left"><span class="header">Consumer unit upgrades<br></span>
-        <br>Lorem ipsum dolor sit amet, utamur detraxit an eam. Facer exerci similique an sit, erat aeque fastidii eam no, id duo ferri appellantur delicatissimi. Ius eros minimum an.
+        <br>All household consumer units should be RCD protected. An RCD, or residual current device, is a life-saving device which is designed to prevent you from getting a fatal electric shock. It can also provide protection against electrical fires contact us for a free quote.
         <br><br><strong>Find out more ></strong></div></a></li>
         <li class="banner-image banner-image-5"><a href="{{ URL::to('domestic') }}"><div class="banner-copy right"><span class="header">Lighting updates<br></span>
-        <br> i.e down lights, led lighting and security lighting Lorem ipsum dolor sit amet, utamur detraxit an eam. Facer exerci similique an sit, erat aeque fastidii eam no, id duo ferri appellantur delicatissimi. Ius eros minimum an.
+        <br>Upgrade the lighting in your home with down lights, led lighting and security lighting. Whatever your lighting needs Quick-Elec will deliver
         <br><br><strong>Click for more info ></strong></div></a></li>
         <li class="banner-image banner-image-6"><a href="{{ URL::to('about') }}"><div class="banner-copy left"><span class="header">Energy saving upgrades<br></span>
-        <br>Lorem ipsum dolor sit amet, utamur detraxit an eam. Facer exerci similique an sit, erat aeque fastidii eam no, id duo ferri appellantur delicatissimi. Ius eros minimum an.
+        <br>Upgrade your home or business with Quick-Elec and save upto 30% on your energy bills.
         <br><br><strong>More here ></strong></div></a></li>
     </ul>
 </div>

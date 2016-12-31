@@ -2289,6 +2289,10 @@ header {
 .page-content.domestic {
   background: url("/images/stock/qe_living_room.jpeg") no-repeat top center;
   background-size: cover; }
+  .page-content.domestic ul {
+    margin-bottom: 3em; }
+  .page-content.domestic li {
+    font-size: 1.3em; }
 
 .page-content.testimonials {
   background: url("/images/stock/qe_kitchen.jpeg") no-repeat top center;

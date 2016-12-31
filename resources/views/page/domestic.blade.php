@@ -27,6 +27,16 @@
 			<p><strong>QUICK-ELEC domestic electricians are experts in all domestic electrical jobs. 
 			   Our friendly and reliable electricians can carry out everything from full and partial re-wires, installation of burglar alarm & CCTV, 
 			   consumer unit ugrades or simply changing a light fitting.</strong></p>
+			
+			<ul>
+				<li>New Installations</li>
+				<li>Inspection and testing</li>
+				<li>Alarms</li>
+				<li>CCTV</li>
+				<li>Fault finding</li>
+				<li>Indoor and outdoor lighting installations</li>
+				<li>Consumer unit upgrades</li>
+			</ul>
 			<p>For over a decade we have been operating in <em>Warrington and the North West</em> offering a local, reliable and trustworthy service that people come back to time and time again.</p>
 		</article>
 		<article column="5">

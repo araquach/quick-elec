@@ -351,6 +351,14 @@ header {
 .page-content.domestic {
     background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
     background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
 }
 
 //
