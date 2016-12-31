@@ -37,6 +37,10 @@ elixir(function(mix) {
      ], 'public/js/jquery.js');
      
     mix.scripts([
+        'mob-nav.js'
+     ], 'public/js/mob-nav.js');
+     
+    mix.scripts([
         'unslider-min.js'
      ], 'public/js/unslider.js') 
 

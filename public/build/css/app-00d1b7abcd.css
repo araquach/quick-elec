@@ -2052,6 +2052,8 @@ ol.dropdown-content {
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     [container] {
       width: auto;
+      margin: auto;
+      min-width: 300px;
       border: none; } }
 
 header {
@@ -2067,8 +2069,12 @@ header {
   padding-top: 1em; }
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     header {
+      position: relative;
       width: auto;
-      background: red; } }
+      max-width: none;
+      min-width: none;
+      height: 6em;
+      margin: auto; } }
 
 #header-content {
   position: absolute;
@@ -2080,11 +2086,17 @@ header {
     display: none; }
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #header-content {
-      display: none; } }
+      background: url("/images/quick-elec_logo.png") no-repeat left 1em top;
+      background-size: 15em;
+      width: 20em;
+      height: 5em; } }
 
 .social {
   width: 2.5em;
   height: 2.5em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .social {
+      display: none; } }
 
 .social.facebook {
   background: url("/images/icons/facebook_logo.png") no-repeat center center;
@@ -2106,6 +2118,9 @@ header {
   bottom: 1.2em;
   border-radius: 15px;
   border: 2px solid #FFF; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #contact-us {
+      display: none; } }
 
 #nav {
   position: absolute;
@@ -2124,6 +2139,9 @@ header {
       #nav li a:hover {
         background: #004080;
         background: #003366; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #nav {
+      display: none; } }
 
 .page-content {
   padding-top: 9.5em;
@@ -2142,22 +2160,49 @@ header {
   background: red;
   float: right; }
 
+@media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  a.button {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 30px;
+    height: 25px;
+    background: url("/images/main/menu_button.png") no-repeat left top;
+    background-size: contain;
+    display: block;
+    margin: 0; } }
+
 .unslider-arrow {
   top: 42em;
   overflow: hidden;
   text-indent: -999em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .unslider-arrow {
+      top: 22em; } }
 
 .unslider-arrow.prev {
   left: 20% !important;
   width: 6em;
   height: 4em;
   background: url("/images/icons/arrow-left.png") no-repeat left 2em top; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .unslider-arrow.prev {
+      width: 3em;
+      height: 2em;
+      background: url("/images/icons/arrow-left.png") no-repeat left 2em top;
+      background-size: contain; } }
 
 .unslider-arrow.next {
   right: 20% !important;
   width: 6em;
   height: 4em;
-  background: url("/images/icons/arrow-right.png") no-repeat left 2em top; }
+  background: url("/images/icons/arrow-right.png") no-repeat right 2em top; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .unslider-arrow.next {
+      width: 3em;
+      height: 2em;
+      background: url("/images/icons/arrow-right.png") no-repeat right 2em top;
+      background-size: contain; } }
 
 .unslider-nav {
   position: absolute;
@@ -2173,6 +2218,9 @@ header {
 
 .banner-image {
   height: 47em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .banner-image {
+      height: 20em; } }
 
 .banner-image-1 {
   background: url("/images/stock/qe_plans.jpeg") no-repeat top center;
@@ -2210,18 +2258,36 @@ header {
   .banner-copy.left strong, .banner-copy.right strong {
     font-weight: bolder;
     font-size: 1.3em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .banner-copy.left, .banner-copy.right {
+      width: 100%;
+      height: 100%;
+      font-size: .8em;
+      border-radius: 0; } }
 
 .banner-copy.left {
   background: rgba(90, 138, 186, 0.8);
   border: 0.1em solid #5a8aba;
   float: left;
   margin-left: 3em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .banner-copy.left {
+      float: none;
+      border: none;
+      margin: auto;
+      background: rgba(90, 138, 186, 0.6); } }
 
 .banner-copy.right {
   background: rgba(90, 138, 186, 0.8);
   border: 0.1em solid #5a8aba;
   float: right;
   margin-right: 3em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .banner-copy.right {
+      float: none;
+      border: none;
+      margin: auto;
+      background: rgba(90, 138, 186, 0.6); } }
 
 .header {
   font-size: 2em;

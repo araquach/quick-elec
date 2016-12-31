@@ -19,6 +19,8 @@ $mobile-device: "only screen and (max-device-width: 640px), only screen and (min
     
     @media #{$mobile-device} {
         width: auto;
+        margin: auto;
+        min-width: 300px;
         border: none;
     }
 }
@@ -36,8 +38,12 @@ header {
     padding-top: 1em;
     
     @media #{$mobile-device} {
+        position: relative;
         width: auto;
-        background: red;
+        max-width: none;
+        min-width: none;
+        height: 6em;
+        margin: auto;
     }
 }
 
@@ -53,13 +59,20 @@ header {
     }
     
     @media #{$mobile-device} {
-        display: none;
+        background: url('/images/quick-elec_logo.png') no-repeat left 1em top;
+        background-size: 15em;
+        width: 20em;
+        height: 5em;
     }
 }
 
 .social {
     width: 2.5em;
     height: 2.5em;
+    
+    @media #{$mobile-device} {
+        display: none;
+    }
 }
 
 .social.facebook {
@@ -88,6 +101,10 @@ header {
         bottom: 1.2em;
         border-radius: 15px;
         border: 2px solid $white;
+        
+        @media #{$mobile-device} {
+            display: none;
+        }
 }
 
 // ----------------------
@@ -117,6 +134,10 @@ header {
             }
         }
     }
+    
+    @media #{$mobile-device} {
+        display: none;
+    }
 }
 
 .page-content {
@@ -142,6 +163,22 @@ header {
     float: right;
 }
 
+@media #{$mobile-device} {
+        a.button {
+        	position: absolute;
+        	right: 20px;
+        	top: 25px;
+        	width: 30px;
+        	height: 25px;
+        	background: url('/images/main/menu_button.png') no-repeat left top;
+        	background-size: contain;
+        	display: block;
+        	margin: 0;
+        }
+    }
+
+
+
 
 //
 // Unslider Banner Styling
@@ -151,6 +188,10 @@ header {
     top: 42em;
     overflow: hidden;
     text-indent: -999em;
+    
+    @media #{$mobile-device} {
+            top: 22em;
+    }
 }
 
 .unslider-arrow.prev {
@@ -158,13 +199,27 @@ header {
     width: 6em;
     height: 4em;
     background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
+    
+    @media #{$mobile-device} {
+            width: 3em;
+            height: 2em;
+            background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
+            background-size: contain;
+    }
 }
 
 .unslider-arrow.next {
 	right: 20% !important;
 	width: 6em;
     height: 4em;
-    background: url('/images/icons/arrow-right.png') no-repeat left 2em top;
+    background: url('/images/icons/arrow-right.png') no-repeat right 2em top;
+    
+    @media #{$mobile-device} {
+            width: 3em;
+            height: 2em;
+            background: url('/images/icons/arrow-right.png') no-repeat right 2em top;
+            background-size: contain;
+    }
 }
 
 .unslider-nav {
@@ -183,6 +238,10 @@ header {
 
 .banner-image {
     height: 47em;
+    
+    @media #{$mobile-device} {
+            height: 20em;
+    }
 }
 
 .banner-image-1 {
@@ -230,6 +289,13 @@ header {
         font-weight: bolder;
         font-size: 1.3em;
     }
+    
+    @media #{$mobile-device} {
+            width: 100%;
+            height: 100%;
+            font-size: .8em;
+            border-radius: 0;
+    }
 }
 
 .banner-copy.left {
@@ -238,6 +304,13 @@ header {
 	border: .1em solid $sky;
 	float: left;
 	margin-left: 3em;
+	
+	@media #{$mobile-device} {
+            float: none;
+            border: none;
+            margin: auto;
+            background: rgba($sky, .6);
+    }
 }
 
 .banner-copy.right {
@@ -246,6 +319,13 @@ header {
 	border: .1em solid $sky;
 	float: right;
 	margin-right: 3em;
+	
+	@media #{$mobile-device} {
+            float: none;
+            border: none;
+            margin: auto;
+            background: rgba($sky, .6);
+    }
 }
 
 .header {
