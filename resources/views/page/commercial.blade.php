@@ -40,14 +40,14 @@
 			</ul>
 	  	</article>
 	  	<article column="5">
-	  		{{ Html::image('images/commercial/commercial1.jpg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
-	  		{{ Html::image('images/commercial/commercial3.jpg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
+	  		{{ Html::image('images/stock/qe_office.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
+	  		{{ Html::image('images/stock/qe_reception_desk.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
 	  	</article>
 	  	<article column="7">
 			<a href="{{ URL::to('contact') }}" class="sector-link">Contact us for more information &gt;</a>
 		</article>
 	  	<article column="5">
-	  		{{ Html::image('images/commercial/commercial2.jpg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
+	  		{{ Html::image('images/stock/qe_emergency_lighting.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
 	  	</article>
 	</section>
 
