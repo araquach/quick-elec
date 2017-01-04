@@ -20,7 +20,7 @@ $mobile-device: "only screen and (max-device-width: 640px), only screen and (min
     @media #{$mobile-device} {
         width: auto;
         margin: auto;
-        min-width: 300px;
+        min-width: none;
         border: none;
     }
 }
@@ -39,11 +39,11 @@ header {
     
     @media #{$mobile-device} {
         position: relative;
+        margin: auto;
         width: auto;
         max-width: none;
-        min-width: none;
+        min-width: 0;
         height: 6em;
-        margin: auto;
     }
 }
 
@@ -144,6 +144,10 @@ header {
     padding-top: 9.5em;
     float: left;
     
+    @media #{$mobile-device} {
+        padding-top: 0;
+    }
+    
     h2 {
         color: $blue;
     }
@@ -201,8 +205,8 @@ header {
     background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
     
     @media #{$mobile-device} {
-            width: 3em;
-            height: 2em;
+            width: 4em;
+            height: 3em;
             background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
             background-size: contain;
     }
@@ -215,8 +219,8 @@ header {
     background: url('/images/icons/arrow-right.png') no-repeat right 2em top;
     
     @media #{$mobile-device} {
-            width: 3em;
-            height: 2em;
+            width: 4em;
+            height: 3em;
             background: url('/images/icons/arrow-right.png') no-repeat right 2em top;
             background-size: contain;
     }
@@ -226,6 +230,10 @@ header {
     position: absolute;
     top: 43em;
     left: 44%;
+    
+    @media #{$mobile-device} {
+            display: none;
+    }
 }
 
 .unslider-nav ol li {
@@ -343,9 +351,22 @@ header {
     padding: 5em;
     float: left;
     
+    @media #{$mobile-device} {
+            width: auto;
+            height: auto;
+            margin: auto;
+            padding: 1em;
+    }
+    
     h2 {
         margin-bottom: 1em;
         line-height: 1.5em;
+    }
+}
+
+[column] {
+    @media #{$mobile-device} {
+        padding: 0;
     }
 }
 
@@ -357,6 +378,11 @@ header {
     margin-bottom: 3em;
     border: 2px solid $blue;
     padding: .2em;
+    
+    @media #{$mobile-device} {
+        margin: auto;
+        width: auto;
+    }
 }
 
 .link-box {
@@ -364,6 +390,13 @@ header {
     text-align: center;
     border: .7em solid white;
     padding: 0;
+    
+    @media #{$mobile-device} {
+            float: none;
+            border: none;
+            margin: auto;
+            margin-top: 1em;
+    }
     
     &:last-of-type {
         border-left: none;
@@ -491,6 +524,10 @@ header {
     background-size: cover;
     padding: 3em;
     float: none;
+    
+    @media #{$mobile-device} {
+        padding: 0;
+    }
 }
 
 .contact-form {
@@ -499,6 +536,13 @@ header {
     background: rgba($white, 0.8);
     padding: 4em;
     border-radius: 10px;
+    
+    @media #{$mobile-device} {
+        width: auto;
+        margin: auto;
+        border-radius: 0;
+        padding: 2em;
+    }
     
     h2 {
         margin-bottom: 1em;
