@@ -7,7 +7,8 @@
     
     <body>
         
-        <script type="text/javascript" src="{{ URL::asset('js/mob-nav.js') }}"></script>
+        <!--<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>-->
+        <!--<script type="text/javascript" src="{{ URL::asset('js/mob-nav.js') }}"></script>-->
         
         <div container>
             
@@ -40,5 +41,16 @@
                 <p>© 2016 Copyright Quick-Elec. All rights reserved. Site by Contra Design</p>
             </footer>
         </div>
+        <script>
+            $(document).ready(function(){
+                var button = '<a href="#" class="menu-b"></a>';
+                $('#nav').parent().append(button);
+                $('a.menu-b').click(function(){
+			        $('#nav ul').slideToggle();
+		            return false;
+		        }); // end click
+        	});
+        </script>
+        
     </body>
 </html>
