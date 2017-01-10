@@ -45,6 +45,7 @@
             $(document).ready(function(){
                 var button = '<a href="#" class="menu-b"></a>';
                 $('#nav').parent().append(button);
+                $('#nav ul').hide();
                 $('a.menu-b').click(function(){
 			        $('#nav ul').slideToggle();
 		            return false;

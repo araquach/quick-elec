@@ -113,8 +113,20 @@ header {
     position: absolute;
     bottom: 0;
     
+    @media #{$mobile-device} {
+        width: auto;
+        margin: auto;
+    }
+    
     ul {
         height: auto;
+        
+        @media #{$mobile-device} {
+            height: 6em;
+            width: auto;
+            margin: auto;
+            background: $blue;
+        }
     }
     
     li {
@@ -127,6 +139,12 @@ header {
             color: $white;
             margin: 0;
             padding: .7em 2em;
+            
+            @media #{$mobile-device} {
+            width: auto;
+            margin: 0;
+            padding: 0;
+        }
             
             &:hover {
             background: lighten($blue, 5%);
@@ -175,7 +193,7 @@ header {
         	display: block;
         	margin: 0;
         }
-    }
+}
 
 
 
