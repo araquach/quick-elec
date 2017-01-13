@@ -2136,7 +2136,8 @@ header {
         height: 6em;
         width: auto;
         margin: auto;
-        background: #003366; } }
+        background: #003366;
+        display: none; } }
   #nav li {
     margin: 0;
     padding: 0; }
