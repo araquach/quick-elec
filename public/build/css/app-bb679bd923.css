@@ -2376,11 +2376,18 @@ header {
   background: url("/images/stock/qe_kitchen.jpeg") no-repeat top center;
   background-size: cover; }
 
-.sector-link {
+a.sector-link {
   font-size: 1.4em;
   float: left;
   clear: left;
-  margin-top: 1.8em; }
+  margin-top: 1.8em;
+  padding: .7em;
+  background: #003366;
+  background: rgba(0, 51, 102, 0.75);
+  color: #FFF;
+  border-radius: 5px; }
+  a.sector-link:hover {
+    opacity: .7; }
 
 .page-content.commercial {
   background: url("/images/stock/qe_office.jpeg") no-repeat top center;

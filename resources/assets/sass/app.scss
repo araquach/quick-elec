@@ -449,11 +449,20 @@ header {
     background-size: cover;
 }
 
-.sector-link {
+a.sector-link {
     font-size: 1.4em;
     float: left;
     clear: left;
     margin-top: 1.8em;
+    padding: .7em;
+    background: $blue;
+    background: rgba($blue, 0.75);
+    color: $white;
+    border-radius: 5px;
+    
+    &:hover {
+        opacity: .7;
+    }
 }
 
 //
