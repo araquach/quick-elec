@@ -145,6 +145,7 @@ header {
             width: auto;
             margin: 0;
             padding: .7em;
+            line-height: 2em;
             font-size: 1.5em;
             background: none;
         }
@@ -372,7 +373,7 @@ header {
             width: auto;
             height: auto;
             margin: auto;
-            padding: 1em;
+            padding: 2em;
     }
     
     h2 {
@@ -505,6 +506,10 @@ header {
     padding: 2em;
     margin-bottom: 2em;
     border-radius: 2em;
+    
+    @media #{$mobile-device} {
+        width: auto;
+    }
     
     p {
         margin-bottom: .6em;

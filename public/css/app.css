@@ -2152,6 +2152,7 @@ header {
           width: auto;
           margin: 0;
           padding: .7em;
+          line-height: 2em;
           font-size: 1.5em;
           background: none; } }
       #nav li a:hover {
@@ -2324,7 +2325,7 @@ header {
       width: auto;
       height: auto;
       margin: auto;
-      padding: 1em; } }
+      padding: 2em; } }
   .full-page h2 {
     margin-bottom: 1em;
     line-height: 1.5em; }
@@ -2408,6 +2409,9 @@ header {
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 2em; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .quote-left, .quote-right {
+      width: auto; } }
   .quote-left p, .quote-right p {
     margin-bottom: .6em; }
   .quote-left p:nth-of-type(1), .quote-right p:nth-of-type(1) {
