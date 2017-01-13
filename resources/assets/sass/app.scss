@@ -126,6 +126,7 @@ header {
         @media #{$mobile-device} {
             background: rgba($blue, .7);
             padding: 1em;
+            display: none;
         }
     }
     
