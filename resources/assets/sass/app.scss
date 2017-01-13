@@ -116,17 +116,16 @@ header {
     @media #{$mobile-device} {
         width: auto;
         margin: auto;
+        position: absolute;
+        top: 6em;
     }
     
     ul {
         height: auto;
-        
+            
         @media #{$mobile-device} {
-            height: 6em;
-            width: auto;
-            margin: auto;
-            background: $blue;
-            display: none;
+            background: rgba($blue, .7);
+            padding: 1em;
         }
     }
     
@@ -144,7 +143,9 @@ header {
             @media #{$mobile-device} {
             width: auto;
             margin: 0;
-            padding: 0;
+            padding: .7em;
+            font-size: 1.5em;
+            background: none;
         }
             
             &:hover {

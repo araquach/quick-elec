@@ -2128,16 +2128,15 @@ header {
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #nav {
       width: auto;
-      margin: auto; } }
+      margin: auto;
+      position: absolute;
+      top: 6em; } }
   #nav ul {
     height: auto; }
     @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #nav ul {
-        height: 6em;
-        width: auto;
-        margin: auto;
-        background: #003366;
-        display: none; } }
+        background: rgba(0, 51, 102, 0.7);
+        padding: 1em; } }
   #nav li {
     margin: 0;
     padding: 0; }
@@ -2151,7 +2150,9 @@ header {
         #nav li a {
           width: auto;
           margin: 0;
-          padding: 0; } }
+          padding: .7em;
+          font-size: 1.5em;
+          background: none; } }
       #nav li a:hover {
         background: #004080;
         background: #003366; }
