@@ -2454,10 +2454,28 @@ footer {
   height: 7em;
   background: rgba(0, 51, 102, 0.9);
   padding: 2em;
-  clear: both; }
+  clear: both;
+  position: relative; }
   footer p {
     color: #3399ff;
     font-size: .8em; }
+    @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      footer p {
+        width: 50%; } }
+  footer .rated {
+    position: absolute;
+    right: 3em;
+    top: -.5em;
+    width: 12em;
+    height: 8em;
+    background: url("/images/icons/rated_people.png") no-repeat center;
+    background-size: contain; }
+    @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+      footer .rated {
+        width: 8em;
+        height: 5em;
+        right: 2em;
+        top: 1em; } }
 
 .unslider {
   overflow: auto;
