@@ -2289,7 +2289,7 @@ header {
     .banner-copy.left, .banner-copy.right {
       width: 100%;
       height: 100%;
-      font-size: .8em;
+      font-size: 1em;
       border-radius: 0; } }
 
 .banner-copy.left {
