@@ -18,7 +18,7 @@
                 </div>
                 
                 
-                <a href="#"><div class="social facebook"></div></a>
+                <a href="https://www.facebook.com/QuickElec" target="_blank"><div class="social facebook"></div></a>
                 <a href="#"><div class="social twitter"></div></a>
                 
                 <a href="{{ URL::to('contact') }}">
@@ -40,7 +40,7 @@
         
             <footer>
                 <p>© 2016 Copyright Quick-Elec. All rights reserved. Site by Contra Design</p>
-                <div class="rated"></div>
+                <a href="https://www.ratedpeople.com/profile/quick-elec/" target="_blank"><div class="rated"></div></a>
             </footer>
         </div>
         <script>
