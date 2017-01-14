@@ -13,9 +13,11 @@
         <div container>
             
             <header>
-                <div id="header-content">
-                    <h1>Quick Elec</h1>
-                </div>
+                <a href="{{ URL::to('/') }}">
+                    <div id="header-content">
+                        <h1>Quick Elec</h1>
+                    </div>
+                </a>
                 
                 
                 <a href="https://www.facebook.com/QuickElec" target="_blank"><div class="social facebook"></div></a>
