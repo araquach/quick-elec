@@ -31,6 +31,7 @@
                     	<li>{!! link_to('domestic', 'Domestic') !!}</li>
                     	<li>{!! link_to('commercial', 'Commercial') !!}</li>
                     	<li>{!! link_to('testimonials', 'Testimonials') !!}</li>
+                    	<li>{!! link_to('contact', 'Contact') !!}</li>
                     </ul>
                 </div>
             </header>

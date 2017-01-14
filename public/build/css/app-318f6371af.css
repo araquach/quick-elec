@@ -2141,6 +2141,11 @@ header {
   #nav li {
     margin: 0;
     padding: 0; }
+    #nav li:last-of-type {
+      display: none; }
+      @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        #nav li:last-of-type {
+          display: block; } }
     #nav li a {
       background: #00264d;
       background: rgba(0, 51, 102, 0.7);

@@ -134,6 +134,14 @@ header {
         margin: 0;
         padding: 0;
         
+        &:last-of-type {
+            display: none;
+            
+            @media #{$mobile-device} {
+                display: block;
+            }
+        }
+        
         a {
             background: darken($blue, 5%);
             background: rgba($blue, .7);
