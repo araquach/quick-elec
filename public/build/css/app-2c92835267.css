@@ -2128,24 +2128,19 @@ header {
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #nav {
       width: auto;
-      margin: auto;
-      position: absolute;
-      top: 6em; } }
+      margin: auto; } }
   #nav ul {
     height: auto; }
     @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
       #nav ul {
-        background: rgba(0, 51, 102, 0.7);
-        padding: 1em;
+        height: 6em;
+        width: auto;
+        margin: auto;
+        background: #003366;
         display: none; } }
   #nav li {
     margin: 0;
     padding: 0; }
-    #nav li:last-of-type {
-      display: none; }
-      @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-        #nav li:last-of-type {
-          display: block; } }
     #nav li a {
       background: #00264d;
       background: rgba(0, 51, 102, 0.7);
@@ -2156,10 +2151,7 @@ header {
         #nav li a {
           width: auto;
           margin: 0;
-          padding: .7em;
-          line-height: 2em;
-          font-size: 1.5em;
-          background: none; } }
+          padding: 0; } }
       #nav li a:hover {
         background: #004080;
         background: #003366; }
@@ -2330,7 +2322,7 @@ header {
       width: auto;
       height: auto;
       margin: auto;
-      padding: 2em; } }
+      padding: 1em; } }
   .full-page h2 {
     margin-bottom: 1em;
     line-height: 1.5em; }
@@ -2381,18 +2373,11 @@ header {
   background: url("/images/stock/qe_kitchen.jpeg") no-repeat top center;
   background-size: cover; }
 
-a.sector-link {
+.sector-link {
   font-size: 1.4em;
   float: left;
   clear: left;
-  margin-top: 1.8em;
-  padding: .7em;
-  background: #003366;
-  background: rgba(0, 51, 102, 0.75);
-  color: #FFF;
-  border-radius: 5px; }
-  a.sector-link:hover {
-    opacity: .7; }
+  margin-top: 1.8em; }
 
 .page-content.commercial {
   background: url("/images/stock/qe_office.jpeg") no-repeat top center;
@@ -2421,9 +2406,6 @@ a.sector-link {
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 2em; }
-  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .quote-left, .quote-right {
-      width: auto; } }
   .quote-left p, .quote-right p {
     margin-bottom: .6em; }
   .quote-left p:nth-of-type(1), .quote-right p:nth-of-type(1) {

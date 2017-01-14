@@ -605,10 +605,32 @@ footer {
     background: rgba($blue, 0.9);
     padding: 2em;
     clear: both;
+    position: relative;
     
     p {
         color: lighten($blue, 40%);
         font-size: .8em;
+        
+        @media #{$mobile-device} {
+            width: 50%;
+        }
+    }
+    
+    .rated {
+        position: absolute;
+        right: 3em;
+        top: -.5em;
+        width: 12em;
+        height: 8em;
+        background: url('/images/icons/rated_people.png') no-repeat center;
+        background-size: contain;
+        
+        @media #{$mobile-device} {
+            width: 8em;
+            height: 5em;
+            right: 2em;
+            top: 1em;
+        }
     }
     
 }
