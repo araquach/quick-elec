@@ -20,7 +20,7 @@
         
         <p><strong>Please complete the form below and we'll get back to you as soon as possible</strong></p>
        
-        <p><strong>If you have an electrical emergency please call 07943 707648</strong></p>
+        <p><strong>If you have an electrical emergency please call:<br> 07943 707648</strong></p>
 
         @if (count($errors) > 0)
         <div>
