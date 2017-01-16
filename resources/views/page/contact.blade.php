@@ -18,6 +18,12 @@
     <div class="contact-form">
         <h2>Contact Us</h2>
         
+        @if(Session::has('message'))
+            <div class="alert alert-info">
+        		{{{ Session::get('message') }}}
+            </div>
+        @endif
+        
         <p><strong>Please complete the form below and we'll get back to you as soon as possible</strong></p>
        
         <p><strong>If you have an electrical emergency please call:<br> 07943 707648</strong></p>

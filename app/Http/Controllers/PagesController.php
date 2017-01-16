@@ -6,8 +6,17 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use App\Http\Requests\ContactFormRequest;
+
+use Mail;
+
 class PagesController extends Controller
 {
+	public function __construct()
+	{
+		$this->middleware('guest');
+	}
+	
     public function home()
 	{
 		return view('page.home');
@@ -47,9 +56,9 @@ class PagesController extends Controller
 	{
 		$input = $request->all();
 		
-		Mail::send('emails.contact', $input, function($message)
+		Mail::send('email.contact', $input, function($message)
    		{
-       		$message->from('info@quick-elec.co.uk', 'Quick-Elec');
+       		$message->from('george@quick-elec.co.uk', 'Quick-Elec');
 			$message->subject('RE: enquiry');
        		$message->to('george@quick-elec.co.uk');
    		});
