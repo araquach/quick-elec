@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'title' => ''
+	'description' => 'See what our customers think about some of the recent electrical work we\'ve carried out',
+	'ogtitle' => 'Testimonials',
+	'ogdescription' => 'See what our customers think about some of the recent work we\'ve carried out',
+	'ogimage' => url('/') . '/images/fb_og/qe_kitchen_fb.jpg',
+	'title' => 'Testimonials'
 	])
 @stop
 

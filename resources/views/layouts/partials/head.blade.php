@@ -18,7 +18,7 @@
 										QUICK-ELEC are electrical contractors covering a range of domestic and commercial electrical services in the North West, all at very competitive prices.
 										We specialise in domestic rewires as we have fully qualified rewire teams who complete work only to the highest standard.
 										We understand what individuals and modern businesses look for when selecting an electrical contractor and we make extra efforts to exceed our customers\' expectations.' }}">
-	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/ogimage/home.jpg' }}">
+	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/fb_og/qe_plans_fb.jpg' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 	
 	<!--Google analytics -->
