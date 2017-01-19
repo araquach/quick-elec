@@ -2341,12 +2341,12 @@ header {
 
 .page-content img {
   margin-bottom: 3em;
-  border: 2px solid #003366;
+  border: 2px solid #FFF;
   padding: .2em; }
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .page-content img {
       margin: auto;
-      width: auto; } }
+      width: 100%; } }
 
 .link-box {
   height: 20em;
@@ -2357,6 +2357,7 @@ header {
     .link-box {
       float: none;
       border: none;
+      width: auto;
       margin: auto;
       margin-top: 1em; } }
   .link-box:last-of-type {
@@ -2393,6 +2394,9 @@ a.sector-link {
   border-radius: 5px; }
   a.sector-link:hover {
     opacity: .7; }
+  @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    a.sector-link {
+      font-size: 1em; } }
 
 .page-content.commercial {
   background: url("/images/stock/qe_office.jpeg") no-repeat top center;
