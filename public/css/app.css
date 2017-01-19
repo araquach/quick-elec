@@ -2471,6 +2471,16 @@ a.sector-link {
     color: #004d99;
     margin-bottom: 1.1em;
     font-size: 1em; }
+  .contact-form ul {
+    border: 1px solid red;
+    background: white;
+    padding: 1em;
+    margin-bottom: 2em; }
+    .contact-form ul li {
+      color: red;
+      list-style: none; }
+  .contact-form .errorMessage {
+    color: red; }
 
 footer {
   height: 7em;
