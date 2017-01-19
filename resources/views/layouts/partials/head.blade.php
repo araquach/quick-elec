@@ -5,10 +5,11 @@
 	
 
 	<meta name="description" content="With years of experience in revamping residential and commercial properties, 
-										QUICK-ELEC are electrical contractors covering a wide range of domestic and commercial electrical services in the North West, all at very competitive prices.
+										QUICK-ELEC are electrical contractors based in Warrington covering a wide range of domestic and commercial electrical services in the North West, all at very competitive prices.
 										We specialise in domestic rewires as we have fully qualified rewire teams who complete work only to the highest standard.
-										We understand what individuals and modern businesses look for when selecting an electrical contractor and we make extra efforts to exceed our customers' expectations.">
-	<meta name="keywords" content="electrician, residential electrician, commercial electrician, electrical contractors, rewire, domestic rewires, burglar alarms, cctv installation, consumer unit, lighting, led lighting, security lighting, driveway lighting, energy saving, North West, Cheshire, Merseyside, Manchester">
+										We understand what individuals and modern businesses look for when selecting an electrical contractor and we make extra efforts to exceed our customers' expectations.
+										Electrician in Wrrington, Cheshire and the whole North West">
+	<meta name="keywords" content="Warrington Electrician, Cheshire Electrician, North West Electrician, electrician, residential electrician, commercial electrician, electrical contractors, rewire, domestic rewires, burglar alarms, cctv installation, consumer unit, lighting, led lighting, security lighting, driveway lighting, energy saving, North West, Cheshire, Merseyside, Manchester">
 	<meta name="author" content="Contra Design">
 	
 	<!-- Typekit fonts -->
@@ -23,7 +24,7 @@
 	
 	<!--Google analytics -->
 
-	<title>{{ $title or 'Quick-Elec - North West Electricians' }}</title>
+	<title>{{ $title or 'Quick-Elec - North West &amp; Cheshire Electricians' }}</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ elixir('css/app.css') }}" />
 	
