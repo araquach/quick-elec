@@ -15,7 +15,7 @@
             <header>
                 <a href="{{ URL::to('/') }}">
                     <div id="header-content">
-                        <h1>Quick Elec</h1>
+                        <h1>Quick Elec - Electricians in Warrington and the North West</h1>
                     </div>
                 </a>
                 
@@ -41,7 +41,7 @@
                 @yield('content')
         
             <footer>
-                <p>© 2016 Copyright Quick-Elec. All rights reserved. Site by Contra Design</p>
+                <p>© 2016 Quick-Elec. Warrington &amp; North West Electricians. Site by Contra Design</p>
                 <a href="https://www.ratedpeople.com/profile/quick-elec/" target="_blank"><div class="rated"></div></a>
             </footer>
         </div>

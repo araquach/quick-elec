@@ -634,6 +634,7 @@ footer {
         
         @media #{$mobile-device} {
             width: 50%;
+            margin-top: -1em;
         }
     }
     

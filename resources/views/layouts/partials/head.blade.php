@@ -23,7 +23,7 @@
 	
 	<!--Google analytics -->
 
-	<title>{{ $title or 'Quick-Elec' }}</title>
+	<title>{{ $title or 'Quick-Elec - North West Electricians' }}</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ elixir('css/app.css') }}" />
 	
