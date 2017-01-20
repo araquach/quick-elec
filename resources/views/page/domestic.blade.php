@@ -49,7 +49,7 @@
 		<article column="7">
 		    <p>Our fully qualified electricians can personally undertake any electrical work you need, and no job is too small.</p>
 		    <p><em>Like so many of our domestic customers, once you have used our services once you will be sure to keep our business card close to hand!</em></p>
-		    <a href="{{ URL::to('contact') }}" class="sector-link">Contact us for more information &gt;</a>
+		    <a href="{{ URL::to('contact') }}" class="sector-link">Contact us for more information</a>
 		</article>
 		<article column="5">
 			{{ Html::image('images/stock/qe_living_room.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}

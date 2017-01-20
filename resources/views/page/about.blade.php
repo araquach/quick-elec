@@ -34,8 +34,8 @@
 	    	{{ Html::image('images/stock/qe_plans.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
 	    </article>
 	    <article column="7">
-		    <a href="{{ URL::to('domestic') }}" class="sector-link">Domestic customers click here &gt;</a>
-		    <a href="{{ URL::to('commercial') }}" class="sector-link">Commercial customers click here &gt;</a>
+		    <a href="{{ URL::to('domestic') }}" class="sector-link">Domestic customers click here</a>
+		    <a href="{{ URL::to('commercial') }}" class="sector-link">Commercial customers click here</a>
 	    </article>
 	    <article column="5">
 		    {{ Html::image('images/stock/qe_electrician.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
