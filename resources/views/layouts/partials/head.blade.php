@@ -12,8 +12,6 @@
 	<meta name="keywords" content="Warrington Electrician, Cheshire Electrician, North West Electrician, electrician, residential electrician, commercial electrician, electrical contractors, rewire, domestic rewires, burglar alarms, cctv installation, consumer unit, lighting, led lighting, security lighting, driveway lighting, energy saving, North West, Cheshire, Merseyside, Manchester">
 	<meta name="author" content="Contra Design">
 	
-	<!-- Typekit fonts -->
-	
 	<meta property="og:title" content="{{ $ogtitle or 'Quick-Elec' }}">
     <meta property="og:description" content="{{ $ogdescription or 'With years of experience in revamping residential and commercial properties, 
 										QUICK-ELEC are electrical contractors covering a range of domestic and commercial electrical services in the North West, all at very competitive prices.
@@ -22,7 +20,17 @@
 	<meta property="og:image" content="{{ $ogimage or url('/') . '/images/fb_og/qe_plans_fb.jpg' }}">
 	<meta property="og:url" content="{{ url()->current() }}">
 	
-	<!--Google analytics -->
+	<!-- Google Analytics -->
+	
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-90635718-1', 'auto');
+		  ga('send', 'pageview');
+	</script>
 
 	<title>{{ $title or 'Quick-Elec - North West &amp; Cheshire Electricians' }}</title>
 
