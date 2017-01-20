@@ -16,6 +16,7 @@
                 <a href="{{ URL::to('/') }}">
                     <div id="header-content">
                         <h1>Quick Elec - Electricians in Warrington and the North West</h1>
+                        <h1>07943 707648</h1>
                     </div>
                 </a>
                 
