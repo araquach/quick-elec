@@ -12,7 +12,7 @@
 						Aiming at all times to achieve 100% customer satisfaction with our prompt and friendly service, if you require:
 						Fault Finding & Repairs, New Installations, Rewiring, Emergency Lighting, Fire Alarm Systems, Office Lighting, Telephone and Data, Security Lighting, Sockets and Switches, Light Fittings, Outdoor Electrical Work, Fixed wire testing',
 	'ogimage' => url('/') . '/images/fb_og/qe_office_fb.jpg',
-	'title' => 'Quick-Elec Commercial Electricians'
+	'title' => 'Quick-Elec - Commercial Electricians - Warrington, Cheshire & North West Electricians'
 	])
 @stop
 

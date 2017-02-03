@@ -7,7 +7,7 @@
 	'ogtitle' => 'Testimonials',
 	'ogdescription' => 'See what our customers think about some of the recent work we\'ve carried out',
 	'ogimage' => url('/') . '/images/fb_og/qe_kitchen_fb.jpg',
-	'title' => 'Testimonials'
+	'title' => 'Quick-Elec - Testimonials - Warrington, Cheshire & North West Electricians'
 	])
 @stop
 

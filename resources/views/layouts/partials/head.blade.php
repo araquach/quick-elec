@@ -32,7 +32,7 @@
 		  ga('send', 'pageview');
 	</script>
 
-	<title>{{ $title or 'Quick-Elec - North West &amp; Cheshire Electricians' }}</title>
+	<title>{{ $title or 'Quick-Elec - Warrington, Cheshire & North West Electricians' }}</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ elixir('css/app.css') }}" />
 	
