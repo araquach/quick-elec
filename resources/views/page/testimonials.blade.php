@@ -34,7 +34,7 @@
     		<p>Work done: Lighting & Power - Internal</p>
     		<p>Sue, WA8</p>
     	</div>
-    	<div class="quote-left">
+    	<div class="quote-right">
     		<p>"Would recommend, great job and we'll communicated."</p>
     		<p>Work done: Lighting & Power - External</p>
     		<p>Wayne, WA13</p>
@@ -44,7 +44,7 @@
     		<p>Work done: Lighting & Power - External</p>
     		<p>Lisa WA13</p>
     	</div>
-    	<div class="quote-left">
+    	<div class="quote-right">
     		<p>"Timely and Efficient Service. Knowledgeable Electrician. Problem Sorted less than 1 Hour. Will use Again."</p>
     		<p>Work done: Lighting & Power - Internal</p>
     		<p>Stephen, WA2</p>
@@ -54,7 +54,7 @@
     		<p>Work done: Lighting & Power - Internal</p>
     		<p>Alyson, WA3</p>
     	</div>
-    	<div class="quote-left">
+    	<div class="quote-right">
     		<p>"Job well done and highly recommendable will be using again when needed."</p>
     		<p>Work done: Lighting & Power - Internal</p>
     		<p>Kevin, WA3</p>
