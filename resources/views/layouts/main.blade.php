@@ -22,7 +22,7 @@
                 
                 
                 <a href="https://www.facebook.com/QuickElec" target="_blank"><div class="social facebook"></div></a>
-                <a href="#"><div class="social twitter"></div></a>
+                <a href="https://twitter.com/QuickElec" target="_blank"><div class="social twitter"></div></a>
                 
                 <a href="{{ URL::to('contact') }}">
                     <button id="contact-us" class="button--pill">Contact Us</button>
