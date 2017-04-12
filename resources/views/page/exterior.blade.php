@@ -3,18 +3,16 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => 'QUICK-ELEC domestic electricians are experts in all domestic electrical jobs. Our friendly and reliable electricians can carry out everything from full and partial re-wires, installation of burglar alarm & CCTV, consumer unit ugrades or simply changing a light fitting.
-	Like so many of our domestic customers, once you have used our services once you will be sure to keep our business card close to hand.
-	For over a decade we have been operating in Warrington and the North West offering a local, reliable and trustworthy service that people come back to time and time again.
-	Our fully qualified electricians can personally undertake any electrical work you need, and no job is too small.',
-	'keywords' => 'domestic, electricians, Warrington, North West, re-wires, burglar alarms',
-	'ogtitle' => 'Domestic Electricians',
-	'ogdescription' => 'QUICK-ELEC domestic electricians are experts in all domestic electrical jobs. Our friendly and reliable electricians can carry out everything from full and partial re-wires, installation of burglar alarm & CCTV, consumer unit ugrades or simply changing a light fitting.
-	Like so many of our domestic customers, once you have used our services once you will be sure to keep our business card close to hand.
-	For over a decade we have been operating in Warrington and the North West offering a local, reliable and trustworthy service that people come back to time and time again.
-	Our fully qualified electricians can personally undertake any electrical work you need, and no job is too small.',
-	'ogimage' => url('/') . '/images/fb_og/qe_living_room_fb.jpg',
-	'title' => 'Quick-Elec - Domestic Electricians - Warrington, Cheshire & North West Electricians'
+	'description' => 'If you\'re looking to add that bit of extra class and quality to your garden or you need lighting for extra security at your home or business, Quick-Elec have the experience and expertise to help you.
+		Our skilled electricians will complete any of the following installations to the highest possible standard: 
+		Decking Lighting, Up and Down Lights, Wall Lighting, Flood/Security Lighting, Tile and Brick Lights, Sign Lighting, Post and Bollard Lighting, Lamp Post Lighting.',
+	'keywords' => 'Warrington External Lighting, North West External Lighting, Garden lights, garden lighting, patio lights',
+	'ogtitle' => 'Add some light to your outside space',
+	'ogdescription' => 'Quick-Elec specialise in home and garden lighting improvements. If you\'re looking to add that bit of extra class and quality to your garden or you need lighting for extra security at your home or business, Quick-Elec have the experience and expertise to help you.
+		Our skilled electricians will complete any of the following installations to the highest possible standard: 
+		Decking Lighting, Up and Down Lights, Wall Lighting, Flood/Security Lighting, Tile and Brick Lights, Sign Lighting, Post and Bollard Lighting, Lamp Post Lighting.',
+	'ogimage' => url('/') . '/images/fb_og/qe_living_external_fb.jpg',
+	'title' => 'Quick-Elec - External Lighting Garden and Patio Lighting - Warrington, Cheshire & North West Electricians'
 	])
 @stop
 
@@ -24,11 +22,11 @@
 	<section grid class="full-page">
 		
 		<div column="7">
-			<h2>Add Some light to your outdoor space</h2>
+			<h2>Add some light to your outdoor space</h2>
 		</div>
 		
 		<article column="7">
-			<p><strong>If you're looking to add that bit of extra class and quality to your garden or you need lighting for extra security at your home or business, Quick-Elec have the experience and expertise to help you.</strong></p>
+			<p><strong>If you're looking to add that bit of extra class and quality to your garden or patio area, or you need lighting for extra security at your home or business, Quick-Elec have the experience and expertise to help you.</strong></p>
 			<p>Quick-Elec specialise in home and garden lighting improvements:</p>
 			<ul>
 				<li>Decking Lighting</li>
