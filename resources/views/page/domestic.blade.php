@@ -41,7 +41,7 @@
 				<li>Indoor and outdoor lighting installations</li>
 				<li>Consumer unit upgrades</li>
 			</ul>
-			<p>For over a decade we have been operating in <em>Warrington and the North West</em> offering a local, reliable and trustworthy service that people come back to time and time again.</p>
+			<p>For over a decade we have been operating in <em>Warrington and the North West (Widnes, Runcorn, Alderley Edge, Leigh and Wigan) </em> offering a local, reliable and trustworthy service that people come back to time and time again.</p>
 		</article>
 		<article column="5">
 			{{ Html::image('images/stock/qe_kitchen.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
