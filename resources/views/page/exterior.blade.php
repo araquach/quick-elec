@@ -11,7 +11,7 @@
 	'ogdescription' => 'Quick-Elec specialise in home and garden lighting improvements. If you\'re looking to add that bit of extra class and quality to your garden or you need lighting for extra security at your home or business, Quick-Elec have the experience and expertise to help you.
 		Our skilled electricians will complete any of the following installations to the highest possible standard: 
 		Decking Lighting, Up and Down Lights, Wall Lighting, Flood/Security Lighting, Tile and Brick Lights, Sign Lighting, Post and Bollard Lighting, Lamp Post Lighting.',
-	'ogimage' => url('/') . '/images/fb_og/qe_exterior_external_fb.jpg',
+	'ogimage' => url('/') . '/images/fb_og/qe_exterior_fb.jpg',
 	'title' => 'Quick-Elec - External Lighting Garden and Patio Lighting - Warrington, Cheshire & North West Electricians'
 	])
 @stop
