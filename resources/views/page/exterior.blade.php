@@ -41,14 +41,15 @@
 			<p>Our skilled electricians will complete any of the above installations to the highest possible standard.</p>
 		</article>
 		<article column="5">
-			{{ Html::image('images/stock/qe_kitchen.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
+			{{ Html::image('images/exterior/exterior_1.jpg', 'Exterior Lighting') }}
 		</article>
 		<article column="7">
+			{{ Html::image('images/exterior/exterior_2.jpg', 'Exterior Lighting') }}
 		    <p><em>Click the link below to arrange for a quote - either call us or use our contact form</em></p>
 		    <a href="{{ URL::to('contact') }}" class="sector-link">Contact us for a quote</a>
 		</article>
 		<article column="5">
-			{{ Html::image('images/stock/qe_living_room.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
+			{{ Html::image('images/exterior/exterior_3.jpg', 'Exterior Lighting') }}
 		</article>
 			
 				
