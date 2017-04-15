@@ -2273,6 +2273,10 @@ header {
   background: url("/images/stock/qe_living_room.jpeg") no-repeat top center;
   background-size: cover; }
 
+.banner-image-7 {
+  background: url("/images/stock/qe_exterior.jpeg") no-repeat top center;
+  background-size: cover; }
+
 .banner-copy.left, .banner-copy.right {
   width: 23em;
   color: white;
@@ -2322,7 +2326,7 @@ header {
   line-height: 1.4em; }
 
 .full-page {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   padding: 5em;
   float: left; }
   @media only screen and (max-device-width: 640px), only screen and (min-device-width: 719px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -2412,6 +2416,14 @@ a.sector-link {
   .page-content.domestic ul {
     margin-bottom: 3em; }
   .page-content.domestic li {
+    font-size: 1.3em; }
+
+.page-content.exterior {
+  background: url("/images/stock/qe_exterior.jpeg") no-repeat top center;
+  background-size: cover; }
+  .page-content.exterior ul {
+    margin-bottom: 3em; }
+  .page-content.exterior li {
     font-size: 1.3em; }
 
 .page-content.testimonials {

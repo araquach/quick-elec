@@ -18,7 +18,7 @@
 
 @section('content')
 
-<div class="page-content external">
+<div class="page-content exterior">
 	<section grid class="full-page">
 		
 		<div column="7">
@@ -39,6 +39,7 @@
 				<li>Lamp Post Lighting</li>
 			</ul>
 			<p>Our skilled electricians will complete any of the above installations to the highest possible standard.</p>
+			<p>These are some of our recent projects</p>
 		</article>
 		<article column="5">
 			{{ Html::image('images/exterior/exterior_1.jpg', 'Exterior Lighting') }}

@@ -308,6 +308,11 @@ header {
     background-size: cover;
 }
 
+.banner-image-7 {
+    background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
 
 %banner-copy {
 	width: 23em;
@@ -373,7 +378,7 @@ header {
 // --------------------
 
 .full-page {
-    background: rgba($white, 0.8);
+    background: rgba($white, 0.9);
     padding: 5em;
     float: left;
     
@@ -501,6 +506,23 @@ a.sector-link {
 
 .page-content.domestic {
     background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
+    background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+}
+
+//
+// Exterior Page Styling
+// --------------------
+
+.page-content.exterior {
+    background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
     background-size: cover;
     
     ul {
