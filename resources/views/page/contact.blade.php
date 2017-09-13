@@ -6,7 +6,7 @@
 	'ogtitle' => 'Contact Us',
 	'ogdescription' => 'For quotes and enquiries don\'t hesitate to get in touch',
 	'ogimage' => url('/') . '/images/fb_og/qe_reception_desk_fb.jpg',
-	'title' => 'Quick-Elec - Contact Us - Warrington, Cheshire & North West Electricians'
+	'title' => 'Warrington, Cheshire & North West Electricians | Contact Us | Quick-Elec'
 	])
 @stop
 

@@ -12,7 +12,7 @@
 		Our skilled electricians will complete any of the following installations to the highest possible standard: 
 		Decking Lighting, Up and Down Lights, Wall Lighting, Flood/Security Lighting, Tile and Brick Lights, Sign Lighting, Post and Bollard Lighting, Lamp Post Lighting.',
 	'ogimage' => url('/') . '/images/fb_og/qe_exterior_fb.jpg',
-	'title' => 'Quick-Elec - External Lighting Garden and Patio Lighting - Warrington, Cheshire & North West Electricians'
+	'title' => 'External Lighting Garden and Patio Lighting in Warrington, Cheshire & North West | Quick-Elec'
 	])
 @stop
 

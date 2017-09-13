@@ -12,7 +12,7 @@
 						We specialise in domestic rewires as we have fully qualified rewire teams who complete work only to the highest standard.
 						We understand what individuals and modern businesses look for when selecting an electrical contractor and we make extra efforts to exceed our customers\' expectations.',
 	'ogimage' => url('/') . '/images/fb_og/qe_electrician_fb.jpg',
-	'title' => 'Quick-Elec - About Us - Warrington, Cheshire & North West Electricians'
+	'title' => 'Warrington, Cheshire & North West Electricians | About Us | Quick-Elec'
 	])
 @stop
 

@@ -14,7 +14,7 @@
 	For over a decade we have been operating in Warrington and the North West offering a local, reliable and trustworthy service that people come back to time and time again.
 	Our fully qualified electricians can personally undertake any electrical work you need, and no job is too small.',
 	'ogimage' => url('/') . '/images/fb_og/qe_living_room_fb.jpg',
-	'title' => 'Quick-Elec - Domestic Electricians - Warrington, Cheshire & North West Electricians'
+	'title' => 'Domestic Electricians in Warrington, Cheshire & North West | Quick-Elec'
 	])
 @stop
 
